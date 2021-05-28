@@ -188,6 +188,38 @@ li {
   color:#0080ff;
 }
 
+/*--- hobby ---*/
+.hobby-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: -50px;
+}
+
+.hobby-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 48%;
+  margin-bottom: 50px;
+}
+
+.hobby-img {
+  width: 60px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.hobby-body {
+  flex: 1;
+  color:#000000;
+}
+
+.hobby-name {
+  margin-bottom: 3px;
+  color:#0080ff;
+}
+
 /*--- contact ---*/
 .contact {
   text-align: center;
@@ -306,6 +338,20 @@ li {
   }
 
   .skill-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .hobby-list {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .hobby-item {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .hobby-item:last-child {
     margin-bottom: 0;
   }
 
