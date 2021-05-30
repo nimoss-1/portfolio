@@ -327,6 +327,19 @@ li {
     margin-bottom: 20px;
   }
 
+  .skill {
+    display: block;
+  }
+  .skill-img {
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  .skill-body p:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
   .skill-list {
     display: block;
     margin-bottom: 0;
