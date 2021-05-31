@@ -327,7 +327,7 @@ li {
     margin-bottom: 20px;
   }
 
-  .skill {
+ .skill {
     display: block;
   }
   .skill-img {
@@ -339,7 +339,6 @@ li {
   .skill-body p:not(:last-child) {
     margin-bottom: 20px;
   }
-
   .skill-list {
     display: block;
     margin-bottom: 0;
